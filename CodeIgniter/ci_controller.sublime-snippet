@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<?php 
+if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class ${1:Index} extends CI_Controller {
+
+	public function index()
+	{
+		\$this->load->view('${2:index}');
+	}
+	$0
+}
+
+/* End of file ${3:index}.php */
+/* Location: ./application/controllers/${4:index}.php */
+?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ci_controller</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

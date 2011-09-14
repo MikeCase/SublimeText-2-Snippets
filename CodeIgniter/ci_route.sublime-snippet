@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$route['${1:route}'] = "${2:route}"
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ci_route</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

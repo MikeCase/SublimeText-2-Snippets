@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+package controllers;
+
+import play.*;
+import play.mvc.*;
+import play.cache.Cache;
+import play.data.validation.*;
+import play.libs.*;
+import play.cache.*;
+
+import java.util.*;
+
+import models.*;
+
+
+public class ${1:Controller_class} extends Controller {
+
+    public static void index() {
+    	$0
+    }
+
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>play_controller</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
